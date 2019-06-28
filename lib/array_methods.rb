@@ -1,5 +1,4 @@
 def find_element_index(array, value_to_find)
-  #it 'takes in an array and a value and returns the index of that value'
   array.length.times do |value|
     if array[value] == value_to_find 
       return value
